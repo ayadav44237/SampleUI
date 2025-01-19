@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Members Management</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <h2>Organizational Settings</h2>
+        <nav>
+          <ul>
+            <li>Profile</li>
+            <li>Product Options</li>
+            <li>Workspace Defaults</li>
+            <li>Shortcuts</li>
+            <li>Integrations</li>
+            <li class="active">Team Members</li>
+          </ul>
+        </nav>
+      </aside>
+   
+      <main class="main-content">
+        <h1>Team Members</h1>
+        <p>Manage your team members and their account permissions here.</p>
+
+
+       
+         <div class="invite-team ">
+          <div class="inv">
+
+            <h3>Invite team members ❔</h3>
+            <p>Get your projects up and running faster by inviting your team to collaborate.</p>
+          </div>
+          <div class="invite-row">
+            <div>
+
+              <input class="email-input" type="email" placeholder="📧you@example.com" class="email-input" />
+              <select class="role-select">
+                <option>Admin</option>
+                <option>Editor</option>
+                <option>Viewer</option>
+              </select>
+            </div>
+            <div class="btn-action">
+              <button class="add-another">+ Add another</button>
+              <button class="send-invite">📧 Send invites</button>
+            </div>
+          </div>
+          
+        </div>
+         
+        <hr>
+      
+        <div class="content">
+          <div class="userContent">
+            <h4>Admin users</h4>
+            <p>Admins can add and remove users and manage organization-level settings</p>
+          </div>
+          <div class="table-container tableContent">
+            <table>
+              <thead>
+                <tr>
+                  <th><input type="checkbox" class="checkbox"></th>
+                  <th>Name</th>
+                  <th>Date added</th>
+                  <th>Last active</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" class="checkbox"></td>
+                  <td>
+                    <div class="user-info">
+                      <div class="logodiv"></div>
+                      <div>
+                        <div><strong>Alec Babala</strong></div>
+                        <div>alec@plmbr.com</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>Dec 18, 2024</td>
+                  <td>Dec 18, 2024</td>
+                  <td class="actions">
+                    <button class="delete-btn">🗑️ </button>
+                    <button class="edit-btn">✏️ </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" class="checkbox"></td>
+                  <td>
+                    <div class="user-info">
+                      <div class="logodiv"></div>
+                      <div>
+                        <div><strong>Alec Babala</strong></div>
+                        <div>alec@plmbr.com</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>Dec 18, 2024</td>
+                  <td>Dec 18, 2024</td>
+                  <td class="actions">
+                    <button class="delete-btn">🗑️ </button>
+                    <button class="edit-btn">✏️ </button>
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <hr>
+        <div class="content">
+          <div class="userContent">
+            <h4>Admin users</h4>
+            <p>Admins can add and remove users and manage organization-level settings</p>
+          </div>
+          <div class="table-container tableContent">
+            <table>
+              <thead>
+                <tr>
+                  <th class="chec"><input type="checkbox" class="checkbox"></th>
+                  <th>Name</th>
+                  <th>Date added</th>
+                  <th>Last active</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" class="checkbox"></td>
+                  <td>
+                    <div class="user-info">
+                      <div class="logodiv"></div>
+                      <div>
+                        <div><strong>Alec Babala</strong></div>
+                        <div>alec@plmbr.com</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>Dec 18, 2024</td>
+                  <td>Dec 18, 2024</td>
+                  <td class="actions">
+                    <button class="delete-btn">🗑️ </button>
+                    <button class="edit-btn">✏️ </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" class="checkbox"></td>
+                  <td>
+                    <div class="user-info">
+                      <div class="logodiv"></div>
+                      <div>
+                        <div><strong>Alec Babala</strong></div>
+                        <div>alec@plmbr.com</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>Dec 18, 2024</td>
+                  <td>Dec 18, 2024</td>
+                  <td class="actions">
+                    <button class="delete-btn">🗑️ </button>
+                    <button class="edit-btn">✏️ </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+       
+        <hr>
+    
+        <div class="footer-btn">
+
+          <button class="cancel-btn">cancel</button>
+          <button class="save-btn">Save</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
